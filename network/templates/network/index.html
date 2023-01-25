@@ -1,0 +1,17 @@
+{% extends "network/layout.html" %}
+
+<!-- Body -->
+{% block body %}
+<div id="alert_div"></div>
+<div id="post_view">
+  <h1>All posts</h1>
+  <div class="new_post">
+    <h3>New Post</h3>
+    <div>
+      <textarea></textarea>
+    </div>
+    <button class="btn btn-primary" id="submit">Post</button>
+  </div>
+</div>
+<div id="tweets_view"></div>
+{% endblock %}
